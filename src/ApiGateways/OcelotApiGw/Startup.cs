@@ -16,7 +16,7 @@ namespace OcelotApiGw
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOcelot()
-            .AddCacheManager(settings => settings.WithDictionaryHandle());
+                .AddCacheManager(settings => settings.WithDictionaryHandle());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,4 +41,3 @@ namespace OcelotApiGw
         }
     }
 }
-

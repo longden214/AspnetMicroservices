@@ -26,11 +26,11 @@ namespace OcelotApiGw
                 {
                     webBuilder.UseStartup<Startup>();
                 })
-                .ConfigureLogging((hostingContext, loggingBuilder) =>
+                .ConfigureLogging((hostingContext, loggingbuilder) =>
                 {
-                    loggingBuilder.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-                    loggingBuilder.AddConsole();
-                    loggingBuilder.AddDebug();
+                    loggingbuilder.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                    loggingbuilder.AddConsole();
+                    loggingbuilder.AddDebug();
                 });
     }
 }
