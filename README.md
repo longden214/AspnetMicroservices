@@ -51,8 +51,8 @@ We have implemented below features over the run-aspnetcore-microservices reposit
 - The Gateway aggregation pattern in Shopping.Aggregator
 
 > **WebUI ShoppingApp Microservice**
-ASP.NET Core Web Application with Bootstrap 4 and Razor template
-Call Ocelot APIs with HttpClientFactory and Polly
+- ASP.NET Core Web Application with Bootstrap 4 and Razor template
+- Call Ocelot APIs with HttpClientFactory and Polly
 
 > **Microservices Cross-Cutting Implementations**
 - Implementing Centralized Distributed Logging with Elastic Stack (ELK); Elasticsearch, Logstash, Kibana and SeriLog for Microservices
