@@ -111,7 +111,7 @@ Follow these steps to get your development environment set up: (Before Run Start
 
 - Rabbit Management Dashboard -> http://host.docker.internal:15672 -- guest/guest
 
-- Portainer -> http://host.docker.internal:9000 -- admin/admin1234
+- Portainer -> http://host.docker.internal:9000 -- admin/123456789012
 
 - pgAdmin PostgreSQL -> http://host.docker.internal:5050 -- admin@aspnetrun.com/admin1234
 
